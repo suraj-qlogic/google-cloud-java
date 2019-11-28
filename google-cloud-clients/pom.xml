@@ -322,6 +322,12 @@
         <artifactId>opencensus-contrib-http-util</artifactId>
         <version>${opencensus.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>io.opencensus</groupId>
+        <artifactId>opencensus-impl</artifactId>
+        <version>${opencensus.version}</version>
+      </dependency>
       <!-- Test dependencies -->
       <dependency>
         <groupId>com.google.guava</groupId>

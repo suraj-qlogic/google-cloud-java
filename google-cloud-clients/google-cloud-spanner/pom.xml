@@ -169,16 +169,8 @@
         </dependency>
         <dependency>
             <groupId>io.opencensus</groupId>
-            <artifactId>opencensus-impl-core</artifactId>
-            <version>0.24.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.opencensus</groupId>
-            <artifactId>opencensus-testing</artifactId>
-            <version>0.24.0</version>
-            <scope>compile</scope>
-            <optional>true</optional>
+            <artifactId>opencensus-impl</artifactId>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
@@ -187,7 +179,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <reporting>
         <plugins>
             <plugin>
